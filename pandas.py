@@ -10,3 +10,7 @@ df2.iloc[0] = 7
 
 #check final value from df1
 df1 
+
+
+#pandas 2.0
+pandas.option.mode.copy_on_write = True
