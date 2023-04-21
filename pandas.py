@@ -27,3 +27,4 @@ df1 #original dataframe isn't changed
 #Just do df2 = df1.copy()
 df2 = df1.copy()
 #Then is it explicit instead of throwing that at the top where it will definitely be overlooked and misunderstood.
+#use copy() every time I was using only a slice of it to prevent the warning from showing
